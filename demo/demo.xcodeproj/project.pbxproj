@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57AD64823A6338A004C046C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD64723A6338A004C046C /* AppDelegate.m */; };
+		B57AD64B23A6338A004C046C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD64A23A6338A004C046C /* ViewController.m */; };
+		B57AD64E23A6338A004C046C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AD64C23A6338A004C046C /* Main.storyboard */; };
+		B57AD65023A6338B004C046C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57AD64F23A6338B004C046C /* Assets.xcassets */; };
+		B57AD65323A6338B004C046C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AD65123A6338B004C046C /* LaunchScreen.storyboard */; };
+		B57AD65623A6338B004C046C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD65523A6338B004C046C /* main.m */; };
+		B5BF391323AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AD66123A633A0004C046C /* IRRadioButton_iOS.framework */; };
+		B5BF391423AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B57AD66123A633A0004C046C /* IRRadioButton_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57AD66023A633A0004C046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B57AD62F23A63379004C046C;
+			remoteInfo = "IRRadioButton-iOS";
+		};
+		B5BF391523AEFFF60024D1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B57AD62E23A63379004C046C;
+			remoteInfo = "IRRadioButton-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5BF391723AEFFF60024D1C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B5BF391423AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B57AD64323A6338A004C046C /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57AD64623A6338A004C046C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B57AD64723A6338A004C046C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B57AD64923A6338A004C046C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B57AD64A23A6338A004C046C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B57AD64D23A6338A004C046C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57AD64F23A6338B004C046C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B57AD65223A6338B004C046C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B57AD65423A6338B004C046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57AD65523A6338B004C046C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "IRRadioButton-iOS.xcodeproj"; path = "../IRRadioButton-iOS.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57AD64023A6338A004C046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BF391323AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57AD63A23A6338A004C046C = {
+			isa = PBXGroup;
+			children = (
+				B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */,
+				B57AD64523A6338A004C046C /* demo */,
+				B57AD64423A6338A004C046C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57AD64423A6338A004C046C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57AD64323A6338A004C046C /* demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57AD64523A6338A004C046C /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				B57AD64623A6338A004C046C /* AppDelegate.h */,
+				B57AD64723A6338A004C046C /* AppDelegate.m */,
+				B57AD64923A6338A004C046C /* ViewController.h */,
+				B57AD64A23A6338A004C046C /* ViewController.m */,
+				B57AD64C23A6338A004C046C /* Main.storyboard */,
+				B57AD64F23A6338B004C046C /* Assets.xcassets */,
+				B57AD65123A6338B004C046C /* LaunchScreen.storyboard */,
+				B57AD65423A6338B004C046C /* Info.plist */,
+				B57AD65523A6338B004C046C /* main.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		B57AD65D23A633A0004C046C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57AD66123A633A0004C046C /* IRRadioButton_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57AD64223A6338A004C046C /* demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57AD65923A6338B004C046C /* Build configuration list for PBXNativeTarget "demo" */;
+			buildPhases = (
+				B57AD63F23A6338A004C046C /* Sources */,
+				B57AD64023A6338A004C046C /* Frameworks */,
+				B57AD64123A6338A004C046C /* Resources */,
+				B5BF391723AEFFF60024D1C2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BF391623AEFFF60024D1C2 /* PBXTargetDependency */,
+			);
+			name = demo;
+			productName = demo;
+			productReference = B57AD64323A6338A004C046C /* demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57AD63B23A6338A004C046C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = irons;
+				TargetAttributes = {
+					B57AD64223A6338A004C046C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B57AD63E23A6338A004C046C /* Build configuration list for PBXProject "demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57AD63A23A6338A004C046C;
+			productRefGroup = B57AD64423A6338A004C046C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B57AD65D23A633A0004C046C /* Products */;
+					ProjectRef = B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B57AD64223A6338A004C046C /* demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B57AD66123A633A0004C046C /* IRRadioButton_iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRRadioButton_iOS.framework;
+			remoteRef = B57AD66023A633A0004C046C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57AD64123A6338A004C046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57AD65323A6338B004C046C /* LaunchScreen.storyboard in Resources */,
+				B57AD65023A6338B004C046C /* Assets.xcassets in Resources */,
+				B57AD64E23A6338A004C046C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57AD63F23A6338A004C046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57AD64B23A6338A004C046C /* ViewController.m in Sources */,
+				B57AD65623A6338B004C046C /* main.m in Sources */,
+				B57AD64823A6338A004C046C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5BF391623AEFFF60024D1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IRRadioButton-iOS";
+			targetProxy = B5BF391523AEFFF60024D1C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B57AD64C23A6338A004C046C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57AD64D23A6338A004C046C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57AD65123A6338B004C046C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57AD65223A6338B004C046C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57AD65723A6338B004C046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B57AD65823A6338B004C046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57AD65A23A6338B004C046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6VV6T753H;
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = irons.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57AD65B23A6338B004C046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6VV6T753H;
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = irons.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57AD63E23A6338A004C046C /* Build configuration list for PBXProject "demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57AD65723A6338B004C046C /* Debug */,
+				B57AD65823A6338B004C046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57AD65923A6338B004C046C /* Build configuration list for PBXNativeTarget "demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57AD65A23A6338B004C046C /* Debug */,
+				B57AD65B23A6338B004C046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57AD63B23A6338A004C046C /* Project object */;
+}
