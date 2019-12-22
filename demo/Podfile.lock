@@ -1,0 +1,16 @@
+PODS:
+  - IRRadioButton-iOS (0.1.0)
+
+DEPENDENCIES:
+  - IRRadioButton-iOS (from `..`)
+
+EXTERNAL SOURCES:
+  IRRadioButton-iOS:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  IRRadioButton-iOS: 08bec7880f874eee552983cddcd575e0a3e57345
+
+PODFILE CHECKSUM: 74f94161ae2a7183b12220603c4d15f5125c8486
+
+COCOAPODS: 1.8.4

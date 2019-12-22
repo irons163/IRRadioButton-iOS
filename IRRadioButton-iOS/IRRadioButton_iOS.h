@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char IRRadioButton_iOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <IRRadioButton_iOS/PublicHeader.h>
 
-
+#import <IRRadioButton_iOS/IRRadioButton.h>

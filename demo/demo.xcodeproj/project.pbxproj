@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93FBA0016B3BB1115D25A644 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7008DEE3DAAEE902C11D1FF /* Pods_demo.framework */; };
 		B57AD64823A6338A004C046C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD64723A6338A004C046C /* AppDelegate.m */; };
 		B57AD64B23A6338A004C046C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD64A23A6338A004C046C /* ViewController.m */; };
 		B57AD64E23A6338A004C046C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AD64C23A6338A004C046C /* Main.storyboard */; };
 		B57AD65023A6338B004C046C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57AD64F23A6338B004C046C /* Assets.xcassets */; };
 		B57AD65323A6338B004C046C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AD65123A6338B004C046C /* LaunchScreen.storyboard */; };
 		B57AD65623A6338B004C046C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD65523A6338B004C046C /* main.m */; };
-		B5BF391323AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AD66123A633A0004C046C /* IRRadioButton_iOS.framework */; };
-		B5BF391423AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B57AD66123A633A0004C046C /* IRRadioButton_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +24,10 @@
 			remoteGlobalIDString = B57AD62F23A63379004C046C;
 			remoteInfo = "IRRadioButton-iOS";
 		};
-		B5BF391523AEFFF60024D1C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B57AD62E23A63379004C046C;
-			remoteInfo = "IRRadioButton-iOS";
-		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B5BF391723AEFFF60024D1C2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B5BF391423AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		8A53C860A51DBDEB711EDA2F /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B57AD64323A6338A004C046C /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57AD64623A6338A004C046C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B57AD64723A6338A004C046C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +39,8 @@
 		B57AD65423A6338B004C046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B57AD65523A6338B004C046C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "IRRadioButton-iOS.xcodeproj"; path = "../IRRadioButton-iOS.xcodeproj"; sourceTree = "<group>"; };
+		C7008DEE3DAAEE902C11D1FF /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1860AC2E07D9EF808041844 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,19 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5BF391323AEFFF60024D1C2 /* IRRadioButton_iOS.framework in Frameworks */,
+				93FBA0016B3BB1115D25A644 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F9D125BACC72FF8BC7DC1FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7008DEE3DAAEE902C11D1FF /* Pods_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67B4555B28868B5E9F06B277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A53C860A51DBDEB711EDA2F /* Pods-demo.debug.xcconfig */,
+				F1860AC2E07D9EF808041844 /* Pods-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B57AD63A23A6338A004C046C = {
 			isa = PBXGroup;
 			children = (
 				B57AD65C23A633A0004C046C /* IRRadioButton-iOS.xcodeproj */,
 				B57AD64523A6338A004C046C /* demo */,
 				B57AD64423A6338A004C046C /* Products */,
+				67B4555B28868B5E9F06B277 /* Pods */,
+				5F9D125BACC72FF8BC7DC1FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,15 +122,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B57AD65923A6338B004C046C /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
+				706737C32907F26093124024 /* [CP] Check Pods Manifest.lock */,
 				B57AD63F23A6338A004C046C /* Sources */,
 				B57AD64023A6338A004C046C /* Frameworks */,
 				B57AD64123A6338A004C046C /* Resources */,
-				B5BF391723AEFFF60024D1C2 /* Embed Frameworks */,
+				395B0939AA5C1A1E76058A3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5BF391623AEFFF60024D1C2 /* PBXTargetDependency */,
 			);
 			name = demo;
 			productName = demo;
@@ -198,6 +198,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		395B0939AA5C1A1E76058A3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		706737C32907F26093124024 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B57AD63F23A6338A004C046C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,14 +252,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B5BF391623AEFFF60024D1C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "IRRadioButton-iOS";
-			targetProxy = B5BF391523AEFFF60024D1C2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B57AD64C23A6338A004C046C /* Main.storyboard */ = {
@@ -353,6 +387,7 @@
 		};
 		B57AD65A23A6338B004C046C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A53C860A51DBDEB711EDA2F /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -371,6 +406,7 @@
 		};
 		B57AD65B23A6338B004C046C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1860AC2E07D9EF808041844 /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B57AD63423A63379004C046C /* IRRadioButton_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B57AD63223A63379004C046C /* IRRadioButton_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B57AD6A223A63413004C046C /* IRRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B57AD6A023A63413004C046C /* IRRadioButton.h */; };
+		B57AD6A223A63413004C046C /* IRRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B57AD6A023A63413004C046C /* IRRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57AD6A323A63414004C046C /* IRRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD6A123A63413004C046C /* IRRadioButton.m */; };
 /* End PBXBuildFile section */
 
