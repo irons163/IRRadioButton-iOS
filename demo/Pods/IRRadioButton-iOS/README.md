@@ -24,7 +24,7 @@
 ## Usage
 
 ### Basic
-It does not need any central manager. Just link the buttons right in Interface Builder, ex:Button A link with B and C:
+It does not need any central manager. Just link the buttons right in Interface Builder:
 ![Interface Builder ](./ScreenShots/demo1.png)
 
 Alternatively group the buttons using single line of code:
